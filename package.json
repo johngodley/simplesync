@@ -1,0 +1,19 @@
+{
+  "name": "simplesync",
+  "author": "John Godley",
+  "version": "0.1",
+  "description": "A simple tool to monitor for local file modifications and sync changes to a remote machine. Use your favourite editor locally, and run on a remote machine.",
+  "main": "simplesync.js",
+  "scripts": {
+    "start": "node simplesync.js"
+  },
+  "bin": {
+    "simplesync": "simplesync.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "fsevents": "^2.0.1",
+    "rc": "^1.2.8"
+  }
+}
